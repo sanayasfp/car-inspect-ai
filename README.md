@@ -1,5 +1,3 @@
----
-
 # CarInspectAI  
 
 **CarInspectAI** is a deep learning-based project for vehicle analysis. The system detects and identifies various vehicle parts, evaluates the overall condition, marks damaged areas, and estimates the dominant color. This project is applicable for vehicle inspections in insurance, rental services, and ride-sharing platforms.  
@@ -92,9 +90,7 @@ yolo task=detect mode=predict model=./models/best.pt source=./images/test/
 
 ## 🤝 Contributions  
 
-Contributions are welcome! Please fork the repo and submit a pull request for major changes.  
-
----
+Contributions are welcome! Please fork the repo and submit a pull request for major changes.
 
 ## 📄 License  
 
