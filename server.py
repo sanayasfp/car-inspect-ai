@@ -14,8 +14,9 @@ def check_if_requirements_installed():
         import pandas
         import numpy
         import ultralytics
+        return True
     except ImportError:
-        install_requirements()
+        return False
 
 
 def install_requirements():
@@ -34,6 +35,6 @@ def run_streamlit():
 
 
 if __name__ == '__main__':
-    install_requirements()
     activate_virtual_environment()
+    install_requirements()
     run_streamlit()
