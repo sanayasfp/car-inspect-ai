@@ -30,7 +30,7 @@ get_cars_info = st.Page(
 )
 
 brouillon = st.Page(
-    page=views("brouillons"),
+    page=views("draft"),
     title="Brouillons",
     icon=icon("build"),
 )
