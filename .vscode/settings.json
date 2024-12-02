@@ -1,0 +1,11 @@
+{
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "driver": "SQLite",
+      "name": "Car Inspaect AI",
+      "database": "${workspaceFolder:car-inspect-ai}/.db/car_inspect_ai.db"
+    }
+  ],
+  "sqltools.useNodeRuntime": true
+}

@@ -1,0 +1,24 @@
+path: C:\laragon\www\me\M1\car-inspect-ai\tmp\dataset
+train: images/train
+val: images/train
+test: images/test
+nc: 18
+names:
+  0: back_bumper
+  1: back_glass
+  2: back_left_door
+  3: back_left_light
+  4: back_right_door
+  5: back_right_light
+  6: front_bumper
+  7: front_glass
+  8: front_left_door
+  9: front_left_light
+  10: front_right_door
+  11: front_right_light
+  12: hood
+  13: left_mirror
+  14: right_mirror
+  15: tailgate
+  16: trunk
+  17: wheel
