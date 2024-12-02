@@ -29,10 +29,17 @@ get_cars_info = st.Page(
     icon=icon("directions_car"),
 )
 
+brouillon = st.Page(
+    page=views("brouillons"),
+    title="Brouillons",
+    icon=icon("build"),
+)
+
 pg = st.navigation(pages=[
 	home,
 	get_cars_info,
 	train_model,
+    brouillon,
 ])
 
 pg.run()
